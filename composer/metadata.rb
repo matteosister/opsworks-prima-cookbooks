@@ -1,0 +1,5 @@
+name        "composer"
+description "Installs composer"
+maintainer  "Prima"
+license     "LGPL-3.0"
+version     "0.0.1"
