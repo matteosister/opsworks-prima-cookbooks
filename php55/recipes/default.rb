@@ -1,3 +1,5 @@
+include_recipe 'apt'
+
 node[:deploy].each do |app_name, deploy|
   apt_repository "php55" do
     uri 'http://ppa.launchpad.net/ondrej/php5/ubuntu'
