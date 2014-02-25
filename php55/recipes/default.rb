@@ -9,7 +9,7 @@ node[:deploy].each do |app_name, deploy|
 
   %w{php5 php5-curl php5-intl php5-mysql}.each do |pkg|
     apt_package pkg do
-      action :install
+      action :upgrade
     end
   end
 end
